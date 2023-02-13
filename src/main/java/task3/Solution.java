@@ -5,7 +5,7 @@ public class Solution {
 
     public static String longestCommonPrefix(String[] strs) {
 
-        if (strs.length < 0 || strs.length > 200) {
+        if (strs.length < 1 || strs.length > 200) {
             throw new IllegalArgumentException("Огранчение на длину массива");
         }
 
